@@ -1,0 +1,1 @@
+(function(){var a=PaymentsPortal2.modules.define;a("components/EligibleRewardsAccountComponent",["component","AUI!P","css-utils"],function(a,d,c){return a.extend({bindToEvents:function(){var b=this;b.widget.on("addressChallengePassed",b,function(a){a.instrumentId===b.data.parentInstrumentId&&c.toggleElement(b.getDOMElement("MobileEligibleRewardsAccountSection"),!0)})}})})})();
