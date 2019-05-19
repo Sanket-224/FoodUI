@@ -19,6 +19,10 @@ var getQueryString = function ( field, url ) {
 $(document).ready(function() {
 
     $('#add-to-cart-button-custom').on('click', function(e) {
-        window.location = "http://localhost:3000/third";
+        window.location = "http://localhost:3000/third"
+    });
+
+    $('#sc-buy-box-ptc-button').on('click', function(e) {
+        window.location = "http://localhost:3000/last"
     });
 })
