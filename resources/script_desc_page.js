@@ -37,7 +37,7 @@ recognition.onresult = function(event) {
   var str = transcript;
   var prefix_add_individual = "add only";
   var prefix_add_all = "add all items";
-  var prefix_done = "done";
+  var prefix_done = "proceed to cart";
 
   // if(str.indexOf(prefix_add_individual) > -1) {
   //      var item = str.substring(str.indexOf(prefix_add_individual)+ prefix_add_individual.length, str.length);
@@ -63,10 +63,10 @@ recognition.onresult = function(event) {
           })
   }
 
-  // if(str.indexOf(prefix_done) > -1) {
-  //     console.log("displaying cart");
-  //     // redirect to cart page
-  // }
+   if(str.indexOf(prefix_done) > -1) {
+       console.log("displaying cart");
+       window.location = "http://localhost:3000/third"
+   }
 };
 
 recognition.onstart = function() { 
