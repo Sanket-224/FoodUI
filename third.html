@@ -54,7 +54,7 @@ var items = [];
                <div class="a-fixed-left-grid-inner" style="padding-left:115px">
                   <div class="a-fixed-left-grid-col a-float-left a-col-left" style="width:115px;margin-left:-115px;float:left;">
                      <a class="a-link-normal sc-product-link" href="https://www.amazon.in/gp/product/B00YEJYSEM/ref=ox_sc_act_image_1?smid=AT95IG9ONZD7S&amp;psc=1">
-                     <img alt="Fogg Marco Body Spray For Men, 150ml" src="rgvrImg" class="sc-product-image" height="100" width="100">
+                     <img alt="rgvrAlt" src="rgvrImg" class="sc-product-image" height="100" width="100">
                      </a>
                   </div>
                   <div class="a-fixed-left-grid-col a-col-right" style="padding-left:0%;float:left;">
@@ -251,6 +251,7 @@ function ajaxCall4(){
 							e = e.replace("rgvrImg", response[v].image);
 							e = e.replace("rgvrMoney", response[v].price.toString().substring(0,4));
 							e = e.replace("rgvrName", response[v].name);
+							e = e.replace("rgvrAlt", response[v].name);
 							allItems = allItems + e;
 						}
 						console.log("rgvr items " + allItems);
