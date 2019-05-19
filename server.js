@@ -11,6 +11,7 @@ var ingredients = [];
 app.use('/index_files', express.static(__dirname + '/index_files'));
 app.use('/second-page_files', express.static(__dirname + '/second-page_files'));
 app.use('/third_files', express.static(__dirname + '/third_files'));
+app.use('/last_files', express.static(__dirname + '/last_files'));
 app.use('/resources', express.static(__dirname + '/resources'));
 
 app.get('/first', function (req, res) {
@@ -23,6 +24,10 @@ app.get('/second-page', function (req, res) {
 
 app.get('/third', function (req, res) {
   res.sendFile(__dirname + '/third.html');
+})
+
+app.get('/last', function (req, res) {
+  res.sendFile(__dirname + '/last.html');
 })
 
 app.get('/alexa/:recipe', function(req, res) {
