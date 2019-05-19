@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98d56b02-d7a6-4f22-921c-2d0cba2eb44b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/third.html" beforeDir="false" afterPath="$PROJECT_DIR$/third.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -288,7 +289,7 @@
         <entry file="file://$PROJECT_DIR$/second-page.htm">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="167">
-              <caret line="18" column="63" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="63" />
+              <caret line="18" column="63" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -302,20 +303,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-276">
-              <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+            <state relative-caret-position="75">
+              <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/third.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="253" column="50" selection-start-line="253" selection-start-column="50" selection-end-line="253" selection-end-column="50" />
+            <state relative-caret-position="101">
+              <caret line="257" column="53" selection-start-line="257" selection-start-column="49" selection-end-line="257" selection-end-column="53" />
               <folding>
                 <element signature="n#style#0;n#iframe#0;n#head#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#iframe#1;n#head#0;n#html#0;n#!!top" expanded="true" />
@@ -510,6 +511,8 @@
       <find>for</find>
       <find>ingredient1</find>
       <find>rgvrList</find>
+      <find>rgvr</find>
+      <find>add_ingredients</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -523,9 +526,9 @@
         <option value="$PROJECT_DIR$/index.htm" />
         <option value="$PROJECT_DIR$/resources/main.js" />
         <option value="$PROJECT_DIR$/second-page.htm" />
-        <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/resources/foodDetails.js" />
         <option value="$PROJECT_DIR$/third.html" />
+        <option value="$PROJECT_DIR$/server.js" />
       </list>
     </option>
   </component>
@@ -615,10 +618,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32956383" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49919224" weight="0.32956383" />
       <window_info anchor="bottom" id="RDE" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.38772213" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49919224" visible="true" weight="0.38772213" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50080776" side_tool="true" weight="0.32956383" />
       <window_info anchor="bottom" id="Black Caiman" order="11" />
       <window_info anchor="bottom" id="Sequence" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -917,24 +920,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-276">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/second-page.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
-          <caret line="18" column="63" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="63" />
+          <caret line="18" column="63" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/third.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="253" column="50" selection-start-line="253" selection-start-column="50" selection-end-line="253" selection-end-column="50" />
+        <state relative-caret-position="101">
+          <caret line="257" column="53" selection-start-line="257" selection-start-column="49" selection-end-line="257" selection-end-column="53" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#head#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#iframe#1;n#head#0;n#html#0;n#!!top" expanded="true" />
@@ -1100,6 +1096,13 @@
             <element signature="n#style#0;n#iframe#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#iframe#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
         </state>
       </provider>
     </entry>

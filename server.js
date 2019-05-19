@@ -27,6 +27,8 @@ app.get('/third', function (req, res) {
 })
 
 app.get('/last', function (req, res) {
+  recipe = null;
+  ingredients = [];
   res.sendFile(__dirname + '/last.html');
 })
 
