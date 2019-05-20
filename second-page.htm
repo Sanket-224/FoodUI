@@ -32,18 +32,46 @@
           document.getElementById("itemsInstruction").innerHTML = response.instructions;
           document.getElementById("allItemCount").innerHTML = response.ingredients.length;
           document.getElementById("recipeName").innerHTML = recipe;
-          $("#ingredient1").attr("src", response.ingredients[0].picUrl);
-          $("#ingredient2").attr("src", response.ingredients[1].picUrl);
-          $("#ingredient3").attr("src", response.ingredients[2].picUrl);
-          $("#ingredient4").attr("src", response.ingredients[3].picUrl);
-          $("#ingredient5").attr("src", response.ingredients[4].picUrl);
-          $("#ingredient6").attr("src", response.ingredients[5].picUrl);
-          document.getElementById("ingredientName1").innerHTML = response.ingredients[0].name;
-          document.getElementById("ingredientName2").innerHTML = response.ingredients[1].name;
-          document.getElementById("ingredientName3").innerHTML = response.ingredients[2].name;
-          document.getElementById("ingredientName4").innerHTML = response.ingredients[3].name;
-          document.getElementById("ingredientName5").innerHTML = response.ingredients[4].name;
-          document.getElementById("ingredientName6").innerHTML = response.ingredients[5].name;
+
+          // load images for ingredients
+          if(response.ingredients[0]) {
+            $("#ingredient1").attr("src", response.ingredients[0].picUrl);
+          }
+          if(response.ingredients[1]) {
+            $("#ingredient2").attr("src", response.ingredients[1].picUrl);
+          }
+          if(response.ingredients[2]) {
+            $("#ingredient3").attr("src", response.ingredients[2].picUrl);
+          }
+          if(response.ingredients[3]) {
+            $("#ingredient4").attr("src", response.ingredients[3].picUrl);
+          }
+          if(response.ingredients[4]) {
+            $("#ingredient5").attr("src", response.ingredients[4].picUrl);
+          }
+          if(response.ingredients[5]) {
+            $("#ingredient6").attr("src", response.ingredients[5].picUrl);
+          }
+
+          // load all names of ingredients
+          if(response.ingredients[0]) {
+            document.getElementById("ingredientName1").innerHTML = response.ingredients[0].name;
+          }
+          if(response.ingredients[1]) {
+            document.getElementById("ingredientName2").innerHTML = response.ingredients[1].name;
+          }
+          if(response.ingredients[2]) {
+            document.getElementById("ingredientName3").innerHTML = response.ingredients[2].name;
+          }
+          if(response.ingredients[3]) {
+            document.getElementById("ingredientName4").innerHTML = response.ingredients[3].name;
+          }
+          if(response.ingredients[4]) {
+            document.getElementById("ingredientName5").innerHTML = response.ingredients[4].name;
+          }
+          if(response.ingredients[5]) {
+            document.getElementById("ingredientName6").innerHTML = response.ingredients[5].name;
+          }
         },
         error: function (error) {
           console.log("FAILEDD!!!")
@@ -1405,7 +1433,7 @@
   <meta name="title" content="Aashirvaad Superior MP Atta Bag, 10kg: Amazon.in: Amazon Retail">
 
   <meta name="keywords" content="wheat flour">
-  <title>Aashirvaad Superior MP Atta Bag, 10kg: Amazon.in: Amazon Retail</title>
+  <title>Amazon</title>
 
 
 
@@ -7565,14 +7593,7 @@
                   <div class="a-column a-span8">
                     <h2 class="a-carousel-heading">Ingrdients</h2>
                   </div>
-                  <div class="a-column a-span4 a-span-last a-text-right"><span
-                      class="a-carousel-pagination a-size-base"><span class="a-carousel-page-count">Page <span
-                          class="a-carousel-page-current">1</span> of <span class="a-carousel-page-max">1</span>
-                      </span><span class="a-carousel-restart-container"><span class="a-text-separator"></span><a
-                          class="a-carousel-restart"
-                          href="https://www.amazon.in/Aashirvaad-Superior-Atta-Bag-10kg/dp/B01GCFBG3G/ref=sr_1_3?crid=ASUUJ665PJ6L&amp;keywords=wheat+flour&amp;qid=1558003717&amp;s=pantry&amp;sprefix=wheat%2Caps%2C312&amp;sr=8-3#">Start
-                          over</a></span><span class="a-carousel-accessibility-page-info a-offscreen"
-                        aria-live="polite">Page 1 of 1 </span></span></div>
+                  
                 </div>
                 <span class="aok-offscreen p13n-sc-offscreen">This shopping feature will continue to load items. In
                   order to navigate out of this carousel please use your heading shortcut key to navigate to the next or
@@ -7588,12 +7609,12 @@
                             <div
                               data-p13n-asin-metadata="{&quot;ref&quot;:&quot;pd_sbs_467_1&quot;,&quot;asin&quot;:&quot;B01CHUZBQS&quot;}"
                               class="a-section a-spacing-none p13n-asin">
-                              <a class="a-link-normal">
+                              
                                 <div class="a-section a-spacing-mini"><img id="ingredient1" alt="" src=""
                                     class="a-dynamic-image p13n-sc-dynamic-image" height="160" width="160"></div>
                                 <div id="ingredientName1" class="p13n-sc-truncated" aria-hidden="true" data-rows="4">
                                 </div>
-                              </a>
+        
 
                   
                               <a class="a-link-normal a-text-normal"
@@ -7604,12 +7625,12 @@
                             <div
                               data-p13n-asin-metadata="{&quot;ref&quot;:&quot;pd_sbs_467_2&quot;,&quot;asin&quot;:&quot;B01GCE6PC4&quot;}"
                               class="a-section a-spacing-none p13n-asin">
-                              <a class="a-link-normal">
+                              
                                 <div class="a-section a-spacing-mini"><img id="ingredient2" alt="" src=""
                                     class="a-dynamic-image p13n-sc-dynamic-image" height="160" width="160"></div>
                                 <div id="ingredientName2" class="p13n-sc-truncated" aria-hidden="true" data-rows="4">
                                 </div>
-                              </a>
+                              
 
                             
                               <a class="a-link-normal a-text-normal"
@@ -7620,12 +7641,12 @@
                             <div
                               data-p13n-asin-metadata="{&quot;ref&quot;:&quot;pd_sbs_467_3&quot;,&quot;asin&quot;:&quot;B01CHUZ9EM&quot;}"
                               class="a-section a-spacing-none p13n-asin">
-                              <a class="a-link-normal">
+                              
                                 <div class="a-section a-spacing-mini"><img id="ingredient3" alt="" src=""
                                     class="a-dynamic-image p13n-sc-dynamic-image" height="160" width="160"></div>
                                 <div id="ingredientName3" class="p13n-sc-truncated" aria-hidden="true" data-rows="4">
                                 </div>
-                              </a>
+                              
 
                           
                               <a class="a-link-normal a-text-normal"
@@ -7636,35 +7657,35 @@
                             <div
                               data-p13n-asin-metadata="{&quot;ref&quot;:&quot;pd_sbs_467_4&quot;,&quot;asin&quot;:&quot;B01GCDVOTE&quot;}"
                               class="a-section a-spacing-none p13n-asin">
-                              <a class="a-link-normal">
+                              
                                 <div class="a-section a-spacing-mini"><img id="ingredient4" alt="" src=""
                                     class="a-dynamic-image p13n-sc-dynamic-image" height="160" width="160"></div>
                                 <div id="ingredientName4" class="p13n-sc-truncated" aria-hidden="true" data-rows="4">
                                 </div>
-                              </a>
+                              
                             </div>
                           </li>
                           <li class="a-carousel-card aok-float-left" role="listitem">
                             <div
                               data-p13n-asin-metadata="{&quot;ref&quot;:&quot;pd_sbs_467_4&quot;,&quot;asin&quot;:&quot;B01GCDVOTE&quot;}"
                               class="a-section a-spacing-none p13n-asin">
-                              <a class="a-link-normal">
+                              
                                 <div class="a-section a-spacing-mini"><img id="ingredient5" alt="" src=""
                                     class="a-dynamic-image p13n-sc-dynamic-image" height="160" width="160"></div>
                                 <div id="ingredientName5" class="p13n-sc-truncated" aria-hidden="true" data-rows="4">
                                 </div>
-                              </a>
+                              
                             </div>
                           </li>
                           <li class="a-carousel-card aok-float-left" role="listitem">
                             <div
                               data-p13n-asin-metadata="{&quot;ref&quot;:&quot;pd_sbs_467_6&quot;,&quot;asin&quot;:&quot;B01HBEO698&quot;}"
                               class="a-section a-spacing-none p13n-asin">
-                              <a class="a-link-normal"></a>
+                              
                               <div class="a-section a-spacing-mini"><img id="ingredient6" alt="" src=""
                                   class="a-dynamic-image p13n-sc-dynamic-image" height="160" width="160"></div>
                               <div id="ingredientName6" class="p13n-sc-truncated" aria-hidden="true" data-rows="4"></div>
-                              </a>
+                              
 
                             
                             </div>

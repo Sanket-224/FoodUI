@@ -7,6 +7,7 @@
     <script src="./resources/script_desc_page.js"></script>
     <script src="./resources/addToCartPage.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script>
 
 var items = [];
@@ -247,6 +248,7 @@ function ajaxCall4(){
         success: function(response){
         console.log("sswet: called4 ");
         console.log("sswet: items are "+ JSON.stringify(response));
+        document.getElementById("spinnerForLoad").style.display = "none";
 
             var allItems = '';
                      for (v in response) {
@@ -3634,11 +3636,9 @@ P.register('x2', function() {});
         Shopping Cart
     </h2>
         </div>
-    
-
-
-
 </div>
+
+<i id="spinnerForLoad" class="fa fa-refresh fa-spin" style="font-size:30px; display: flex; justify-content: center;"></i>
     
 
 
